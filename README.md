@@ -16,11 +16,15 @@ Dikarenakan pada data aktual  memiliki pola tren dari awal hingga akhir yang tid
 Pada plot ACF memiliki lag yang menurun secara perlahan dan pada PACF memiliki nilai yang signifikan di lag 1 dan lag 2. Selain itu pada uji adf memiliki nilai p-value sebesar 0.6417290206734335 dengan artian data belum sattioner karna lebih dari nilai alfa (0,05).
 ### **Transform to stationary: Differencing**
 Differencing merupakan salah satu metode untuk merubah data menjadi stationer, sehingga di dapatkan plot seperti berikut.
-<img width="1108" height="567" alt="image" src="https://github.com/user-attachments/assets/1662f227-ef2c-4804-9942-072d12cc45c6" />
-Dari plot hasil differencing sudah terlihat bahwa nilai sudah mendekati sekitar 0 dan tidak memiliki nilai tren yang terlalu signifikan, dengan artian data sudah lebih stationer dibandingkan sebelum differencing.
-<img width="749" height="576" alt="image" src="https://github.com/user-attachments/assets/72ff332e-2ddc-435c-a4a6-2e315f9a42bd" />
-<img width="752" height="581" alt="image" src="https://github.com/user-attachments/assets/6d19b139-fa35-4931-8b80-ae7fefac4e9a" />
-Dari plot ACF PACF akan didapatkan model ARMA(p,q), terdapat pada lag ke-3 yang melewati garis signifikan, sehingga didapatkan model ARMA (3,3). 
+<img width="1000" height="513" alt="image" src="https://github.com/user-attachments/assets/60e53161-e1a2-4316-a13c-06d9002428b6" />
+Dari plot hasil differencing sudah terlihat bahwa nilai sudah mendekati sekitar 0 dan tidak memiliki nilai tren yang terlalu signifikan, dengan artian data sudah lebih stationer dibandingkan sebelum differencing. Dari hasil adf juga didapatkan nilai p-value sebesar 8.479058744395605e-16 dengan artian nilai tersebut sudah lebih kecil dibandingkan dengan nilai alfa (0,05).
+<img width="662" height="509" alt="image" src="https://github.com/user-attachments/assets/bbe1d480-c989-4e4e-8241-d73b9a11daf2" />
+<img width="668" height="525" alt="image" src="https://github.com/user-attachments/assets/f80d8efc-07be-488e-9c12-5be5ada7411c" />
+Dari plot ACF PACF akan didapatkan model ARMA(p,q), terdapat pada lag ke-1 yang melewati garis signifikan, sehingga didapatkan model ARMA (1,1). 
+### **ARIMA Model Manual (1,1,1)**
+<img width="272" height="407" alt="image" src="https://github.com/user-attachments/assets/bdf3c552-a69a-44fd-afd3-3dba0bb00d91" />
+<img width="1178" height="568" alt="image" src="https://github.com/user-attachments/assets/5f0acbf6-9df7-4450-ace8-b5c015c404ad" />
+Dari hasil predict arima menunjukkan bahwa terdapat kenaikan harga setelah Agustus 2025, dimana prediksi ini memiliki kenaikan secara perlahan dan terus mengalami kenaikan dalam waktu dekat.
 
 
 
