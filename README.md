@@ -27,6 +27,7 @@ Dari plot ACF PACF akan didapatkan model ARMA(p,q), terdapat pada lag ke-1 yang 
 Dari hasil predict arima menunjukkan bahwa terdapat kenaikan harga setelah Agustus 2025, dimana prediksi ini memiliki kenaikan secara perlahan dan terus mengalami kenaikan dalam waktu dekat.
 ### **ARIMA Model Auto (0,1,4)**
 Dengan menggunakan auto arima didapatkan model ARIMA(0,1,4), sehingga menghasilkan nilai prediksi sebagai berikut.
+
 <img width="281" height="422" alt="image" src="https://github.com/user-attachments/assets/532b67cf-a1c2-4bd4-a019-1a36f9d59b28" />
 <img width="1330" height="646" alt="image" src="https://github.com/user-attachments/assets/c9300fdd-c5fd-4d45-9a55-305a8c67f026" />
 Dari hasil plot perbandingan antara arima manual dengan arima auto didapatkan hasil bahwa arima manual (1,2,1) memiliki model yang lebih bagus untuk prediksi beberapa periode kedepan dibandingkan dengan arima auto.
