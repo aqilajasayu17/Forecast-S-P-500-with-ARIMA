@@ -25,6 +25,15 @@ Dari plot ACF PACF akan didapatkan model ARMA(p,q), terdapat pada lag ke-1 yang 
 <img width="272" height="407" alt="image" src="https://github.com/user-attachments/assets/bdf3c552-a69a-44fd-afd3-3dba0bb00d91" />
 <img width="1178" height="568" alt="image" src="https://github.com/user-attachments/assets/5f0acbf6-9df7-4450-ace8-b5c015c404ad" />
 Dari hasil predict arima menunjukkan bahwa terdapat kenaikan harga setelah Agustus 2025, dimana prediksi ini memiliki kenaikan secara perlahan dan terus mengalami kenaikan dalam waktu dekat.
+### **ARIMA Model Auto (0,1,4)**
+Dengan menggunakan auto arima didapatkan model ARIMA(0,1,4), sehingga menghasilkan nilai prediksi sebagai berikut.
+<img width="281" height="422" alt="image" src="https://github.com/user-attachments/assets/532b67cf-a1c2-4bd4-a019-1a36f9d59b28" />
+<img width="1330" height="646" alt="image" src="https://github.com/user-attachments/assets/c9300fdd-c5fd-4d45-9a55-305a8c67f026" />
+Dari hasil plot perbandingan antara arima manual dengan arima auto didapatkan hasil bahwa arima manual (1,2,1) memiliki model yang lebih bagus untuk prediksi beberapa periode kedepan dibandingkan dengan arima auto.
+### **Perbandingan Nilai MAPE Manual (1,2,1) dengan MAPE Auto (0,1,4)**
+<img width="418" height="46" alt="image" src="https://github.com/user-attachments/assets/7cac2bc2-f51e-4e0a-97ef-89844c76eef3" />
+<img width="395" height="47" alt="image" src="https://github.com/user-attachments/assets/b7f5f7bc-7487-45fc-be89-1a475b2a9c18" />
+Perbandingan antara model arima manual dengan arima auto dapat dilihat dari nilai MAPE dan RMSE, semakin kecil nilai MAPE dan RMSE maka semakin baik akurasi prediksi. Prediksi arima secara manual lebih bagus dibanding arima secara auto baik dari sisi MAPE maupun RMSE. Sehingga Prediksi dengan menggunakan model ARIMA (1,2,1) lebih sesuai untuk melakukan prediksi pada data Saham S&P 500 untuk beberapa periode kedepan.
 
 
 
