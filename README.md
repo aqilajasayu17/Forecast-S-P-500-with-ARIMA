@@ -4,7 +4,7 @@ Dataset:https://finance.yahoo.com/quote/%5EGSPC/history/
 
 The dataset in this research is derived from S&P 500 data, with the observation period spanning from August 23, 2024 to August 23, 2025. There are six variables in total, and the variable utilized in this research is the “Close” variable. The purpose of using this variable is to serve as a reference in making investment decisions, such as determining the appropriate time to buy, hold, or sell.
 
-### **Plot Actual Data**
+### **Actual Data Plot**
 
 <img width="1032" height="575" alt="Image" src="https://github.com/user-attachments/assets/957ee466-b33c-4d9b-8bde-f097a52b5128" />
 
@@ -32,14 +32,14 @@ From the differenced plot, it can be observed that the values are closer to arou
 
 Based on the ACF and PACF plots, the ARMA(p,q) model can be determined. At lag 1, the values exceed the significance boundary, leading to the selection of the ARMA(1,1) model.
 
-### **ARIMA Model Manual (1,1,1)**
+### **Manual ARIMA Model (1,2,1)**
 <img width="272" height="407" alt="image" src="https://github.com/user-attachments/assets/bdf3c552-a69a-44fd-afd3-3dba0bb00d91" />
 
 <img width="1178" height="568" alt="image" src="https://github.com/user-attachments/assets/5f0acbf6-9df7-4450-ace8-b5c015c404ad" />
 
 The ARIMA prediction results indicate an increase in prices after August 2025, where the forecast shows a gradual rise that continues to increase in the near future.
 
-### **ARIMA Model Auto (0,1,4)**
+### **AUTO ARIMA Model (0,1,4)**
 By applying the auto ARIMA method, the ARIMA(0,1,4) model was obtained, which subsequently produced the following prediction values.
 
 <img width="281" height="422" alt="image" src="https://github.com/user-attachments/assets/532b67cf-a1c2-4bd4-a019-1a36f9d59b28" />
