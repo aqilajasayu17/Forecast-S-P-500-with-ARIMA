@@ -6,7 +6,7 @@ The dataset in this research is derived from S&P 500 data, with the observation 
 
 ### **Actual Data Plot**
 
-<img width="1032" height="575" alt="Image" src="https://github.com/user-attachments/assets/957ee466-b33c-4d9b-8bde-f097a52b5128" />
+<img width="1156" height="642" alt="image" src="https://github.com/user-attachments/assets/728d0894-87f2-41bd-bacf-d03c2cbcfc33" />
 
 The plot illustrates that the data frequently fluctuates, where prices initially increased from late 2024 to early 2025, reaching approximately 6200–6300, before experiencing a significant decline between March and April 2025. Subsequently, the prices returned to normal, as indicated by an upward trend, surpassing 6400 in August 2025. The conclusion drawn from the actual data plot is that prices experienced a sharp drop in early 2025 but quickly recovered, regaining higher values by the end of 2025. Therefore, this period provides an overview of a market that underwent volatility but demonstrated a strong recovery.
 
