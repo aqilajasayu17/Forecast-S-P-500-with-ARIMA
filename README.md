@@ -1,4 +1,4 @@
-# Forecast-S-P-500-with-ARIMA
+# Forecast S&P 500 with ARIMA
 ### **Time Series Prediction for S&P 500**
 Dataset:https://finance.yahoo.com/quote/%5EGSPC/history/
 
